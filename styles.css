@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -13,6 +14,13 @@ header {
     color: #ffffff;
     padding: 10px 20px;
     text-align: center;
+    font-family: Major Mono Display, monospace;
+}
+
+h2 {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: bold;
 }
 
 header h1 {
@@ -67,7 +75,7 @@ footer {
     border-radius: 10px;
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -77,7 +85,7 @@ footer {
     .grid-container {
         grid-template-columns: 1fr;
     }
-} */
+}
 
 
 .product-item {
@@ -102,13 +110,13 @@ img {
     height: auto;
     display: block;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
 img:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .home-image {
